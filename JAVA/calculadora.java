@@ -1,17 +1,22 @@
+// Importamos las librerias necesarias
 import java.util.Locale;
 import java.util.Scanner;
 
 public class calculadora {
     public static void main(String[] args) {
   
+        //Definimos el scanner
         Scanner sc = new Scanner(System.in);
+
+        //Definimos el locale para que el punto sea el separador decimal
         sc.useLocale(Locale.US);
-        //no importa que sean int o double
+
+        //Definimos las variables
         double operando1;
         double operando2;
         double resultado=0;
   
-        //Nos pide los operandos y el signo de operacion
+        //Pedimos los datos al usuario y los guardamos en las variables
         System.out.println("Escribe el primer numero");
         operando1=sc.nextDouble();
          
@@ -43,6 +48,7 @@ public class calculadora {
                 break;
         }
   
+        //Imprimimos el resultado
         System.out.println( operando1+" "+operacion+" "+operando2+" = "+resultado);
     }
 }
