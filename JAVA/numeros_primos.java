@@ -8,7 +8,7 @@ public class numeros_primos {
   
             //Hacemos otro bucle para contar los divisibles
             for (int j=raiz;j>1;j--){
-                if (i%j==0){
+                if ( i% j==0 ){
                     contador++;
                 }
             }
