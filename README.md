@@ -1,17 +1,7 @@
-# Learning Java
+# Java en Visual Studio Code
 
-<img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" min-width="400px" max-width="400px" width="400px" align="right" alt="Computador iuriCode">
+1. Instalamos las extenciones de java VSCode [Java Extension Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
 
-<p align="left"> 
-  In this repository you will learn how to use JAVA.
-</p>
+2. Intalamos el [jdk](https://www.oracle.com/co/java/technologies/downloads/) de Oracle
 
-<p align="left">
-  🦄 Language: <strong>Java</strong>
-</p>
-
-<p align="left">
-  💼 Tools: <strong>Visual Studio Code, documentatión and videos.</strong>
-</p>
-
-## Contact Me: <a href="mailto:florezj328@gmail.com"> <img src="https://img.shields.io/badge/Gmail-red?style=for-the-badge&logo=gmail&logoColor=white" width="80px" alt="Jhonattan Florez"/> </a>
+3. Configuramos el path de java en las variables de entorno y ya podremos ejecutar nuestro codigo java desde la terminal de VSCode

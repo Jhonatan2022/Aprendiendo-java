@@ -1,5 +1,4 @@
 public class reloj {
- 
     public static void main(String[] args) throws InterruptedException {
  
         //Variables
